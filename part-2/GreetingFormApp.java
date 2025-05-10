@@ -23,6 +23,7 @@ public class GreetingFormApp extends JFrame implements ActionListener {
         add(messageLabel, BorderLayout.CENTER);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 200);
+        setLocationRelativeTo(null);
     }
 
     @Override

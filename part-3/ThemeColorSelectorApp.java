@@ -31,6 +31,7 @@ public class ThemeColorSelectorApp extends JFrame implements ActionListener {
         add(mainPanel, BorderLayout.CENTER);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 400);
+        setLocationRelativeTo(null);
     }
 
     @Override

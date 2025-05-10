@@ -16,6 +16,7 @@ public class ClickCounterApp extends JFrame implements ActionListener {
         add(clickButton, BorderLayout.SOUTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 200);
+        setLocationRelativeTo(null);
     }
 
     private JLabel counterLabel;    // Displays the click count
